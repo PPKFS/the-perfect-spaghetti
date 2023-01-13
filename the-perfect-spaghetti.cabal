@@ -1,0 +1,129 @@
+cabal-version:   3.0
+name:            the-perfect-spaghetti
+version:         0.0.0.1
+license:         MIT
+author:          Avery
+maintainer:      Avery <thecommunistduck@hotmail.co.uk>
+copyright:       2022 Avery
+category:        Game Development
+build-type:      Simple
+tested-with: GHC == 9.2.4
+
+common common-options
+  build-depends:
+      base
+    , containers
+    , unordered-containers
+    , text
+    , aeson-better-errors
+    , aeson
+    , mtl
+    
+    , optics
+    , vector
+    , fgl
+    , vector
+    , filepath
+
+    , formatting
+    , pretty-simple
+    , prettyprinter
+    , prettyprinter-ansi-terminal
+
+  ghc-options:
+    -Wall -Wcompat -Widentities -Wredundant-constraints
+    -fhide-source-paths -Wno-unused-top-binds
+    -threaded
+    -Wmissing-deriving-strategies -O2 -flate-specialise
+    -fspecialise-aggressively -fprint-potential-instances
+    -fno-warn-unused-do-bind -haddock -fwrite-ide-info
+  default-language:   Haskell2010
+  default-extensions:
+    NoImplicitPrelude
+    BlockArguments
+    DataKinds
+    DerivingStrategies
+    FunctionalDependencies
+    LambdaCase
+    MultiWayIf
+    InstanceSigs
+    OverloadedStrings
+    TypeFamilies
+    TypeApplications
+    ConstraintKinds
+    NamedFieldPuns
+    FlexibleInstances
+    FlexibleContexts
+    GeneralisedNewtypeDeriving
+    DeriveGeneric
+    DeriveAnyClass
+    DeriveTraversable
+    DuplicateRecordFields
+    OverloadedLabels
+    StandaloneDeriving
+    RankNTypes
+    ScopedTypeVariables
+    BangPatterns
+    GADTs
+    TypeOperators
+    DerivingVia
+    QuasiQuotes
+    PatternSynonyms
+    OverloadedLabels
+library
+  import:          common-options
+  hs-source-dirs:  src
+  exposed-modules:
+    Spaghetti.Planner
+    Spaghetti.Types
+    Spaghetti.LoadJSON
+  build-depends:
+    solitude
+
+executable spaghetti-app
+  import: common-options
+  hs-source-dirs: app
+  main-is: Main.hs
+  other-modules: 
+    Spaghetti.GUI.Window
+    Spaghetti.GUI.SDL
+    Spaghetti.GUI.ListBox
+    Spaghetti.GUI.NodeEditor
+    Spaghetti.Node
+  build-depends:
+    StateVar
+    , dear-imgui
+    , gl
+    , inline-c
+    , inline-c-cpp
+    , linear
+    , managed
+    , relude
+    , sdl2
+    , the-perfect-spaghetti
+    , unliftio
+    , vector
+    , time
+  
+test-suite the-perfect-spaghetti-test
+  import:             common-options
+  type:               exitcode-stdio-1.0
+  hs-source-dirs:     test
+  main-is:            Spec.hs
+  build-depends:
+    , tasty
+    , tasty-hunit
+    , exceptions
+    , uninformed
+    , filepath
+    , pretty
+    , solitude
+    , split
+    , bytestring
+    , directory
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  default-extensions:
+    QuasiQuotes
+    TemplateHaskell
+
+  other-modules:

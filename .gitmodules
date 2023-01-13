@@ -1,0 +1,4 @@
+[submodule "solitude"]
+	path = solitude
+	url = https://github.com/ppkfs/solitude
+	branch = mtl

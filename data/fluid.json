@@ -1,0 +1,7277 @@
+{
+  "anthracene-oil" : {
+    "name" : "anthracene-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.anthracene-oil"
+      ],
+      "[color=25,50,100] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 250000,
+    "emissions_multiplier" : 1
+  },
+  "carbolic-oil" : {
+    "name" : "carbolic-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.carbolic-oil"
+      ],
+      "[color=25,50,100] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 350000,
+    "emissions_multiplier" : 1
+  },
+  "fluid-unknown" : {
+    "name" : "fluid-unknown",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fluid-unknown"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 0,
+    "max_temperature" : 0,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "middle-oil" : {
+    "name" : "middle-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.middle-oil"
+      ],
+      "[color=25,50,100] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "naphthalene-oil" : {
+    "name" : "naphthalene-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.naphthalene-oil"
+      ],
+      "[color=25,50,100] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 300000,
+    "emissions_multiplier" : 1
+  },
+  "pitch" : {
+    "name" : "pitch",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pitch"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 100000,
+    "emissions_multiplier" : 1
+  },
+  "water" : {
+    "name" : "water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.water"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "a[fluid]-a[water]",
+    "default_temperature" : 15,
+    "max_temperature" : 500,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "steam" : {
+    "name" : "steam",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.steam"
+      ],
+      "[color=127,127,127] ■[\/color]"
+    ],
+    "order" : "a[fluid]-b[steam]",
+    "default_temperature" : 15,
+    "max_temperature" : 2000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "heavy-oil" : {
+    "name" : "heavy-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.heavy-oil"
+      ],
+      "[color=127,10,0] ■[\/color]"
+    ],
+    "order" : "a[fluid]-c[heavy-oil]",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 800000,
+    "emissions_multiplier" : 1
+  },
+  "light-oil" : {
+    "name" : "light-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.light-oil"
+      ],
+      "[color=145,84,0] ■[\/color]"
+    ],
+    "order" : "a[fluid]-d[light-oil]",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 900000,
+    "emissions_multiplier" : 1
+  },
+  "petroleum-gas" : {
+    "name" : "petroleum-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.petroleum-gas"
+      ],
+      "[color=76,25,76] ■[\/color]"
+    ],
+    "order" : "a[fluid]-e[petroleum-gas]",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "lubricant" : {
+    "name" : "lubricant",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.lubricant"
+      ],
+      "[color=38,81,7] ■[\/color]"
+    ],
+    "order" : "e[lubricant]",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ltn-cargo-warning" : {
+    "name" : "ltn-cargo-warning",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ltn-cargo-warning"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "v0",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ltn-cargo-alert" : {
+    "name" : "ltn-cargo-alert",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ltn-cargo-alert"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "v1",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ltn-depot-warning" : {
+    "name" : "ltn-depot-warning",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ltn-depot-warning"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "v2",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ltn-depot-empty" : {
+    "name" : "ltn-depot-empty",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ltn-depot-empty"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "v3",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sulfuric-acid" : {
+    "name" : "sulfuric-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sulfuric-acid"
+      ],
+      "[color=191,165,25] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "refsyngas" : {
+    "name" : "refsyngas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.refsyngas"
+      ],
+      "[color=204,60,32] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "coal-gas" : {
+    "name" : "coal-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-gas"
+      ],
+      "[color=234,197,137] ■[\/color]"
+    ],
+    "order" : "a-[coal-gas]",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "syngas" : {
+    "name" : "syngas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.syngas"
+      ],
+      "[color=204,143,32] ■[\/color]"
+    ],
+    "order" : "a-a-[syn-gas]",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "acetylene" : {
+    "name" : "acetylene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acetylene"
+      ],
+      "[color=219,98,181] ■[\/color]"
+    ],
+    "order" : "z-[acetylene]",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "anthraquinone" : {
+    "name" : "anthraquinone",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.anthraquinone"
+      ],
+      "[color=187,150,233] ■[\/color]"
+    ],
+    "order" : "z-[anthraquinone]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "aromatics" : {
+    "name" : "aromatics",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.aromatics"
+      ],
+      "[color=188,102,98] ■[\/color]"
+    ],
+    "order" : "z-[aromatics]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 350000,
+    "emissions_multiplier" : 1
+  },
+  "boric-acid" : {
+    "name" : "boric-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.boric-acid"
+      ],
+      "[color=168,191,194] ■[\/color]"
+    ],
+    "order" : "z-[boric-acid]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-slurry" : {
+    "name" : "coal-slurry",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-slurry"
+      ],
+      "[color=62,62,62] ■[\/color]"
+    ],
+    "order" : "z-[coal-slurry]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "diborane" : {
+    "name" : "diborane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.diborane"
+      ],
+      "[color=218,236,242] ■[\/color]"
+    ],
+    "order" : "z-[diborane]",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "diesel" : {
+    "name" : "diesel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.diesel"
+      ],
+      "[color=127,53,5] ■[\/color]"
+    ],
+    "order" : "z-[diesel]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1500000,
+    "emissions_multiplier" : 1
+  },
+  "hydrogen-peroxide" : {
+    "name" : "hydrogen-peroxide",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hydrogen-peroxide"
+      ],
+      "[color=171,255,236] ■[\/color]"
+    ],
+    "order" : "z-[hydrogen-peroxide]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "olefin" : {
+    "name" : "olefin",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.olefin"
+      ],
+      "[color=153,98,189] ■[\/color]"
+    ],
+    "order" : "z-[olefin]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tpa" : {
+    "name" : "tpa",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tpa"
+      ],
+      "[color=238,204,1] ■[\/color]"
+    ],
+    "order" : "z-[tpa]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "combustion-mixture1" : {
+    "name" : "combustion-mixture1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.combustion-mixture1"
+      ],
+      "[color=206,82,0] ■[\/color]"
+    ],
+    "order" : "z-[combustion-mixture1]",
+    "default_temperature" : 15,
+    "max_temperature" : 3000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dirty-water-heavy" : {
+    "name" : "dirty-water-heavy",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dirty-water-heavy"
+      ],
+      "[color=44,13,13] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "flue-gas" : {
+    "name" : "flue-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.flue-gas"
+      ],
+      "[color=213,206,189] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "methanol" : {
+    "name" : "methanol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.methanol"
+      ],
+      "[color=58,197,84] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "rare-earth-mud" : {
+    "name" : "rare-earth-mud",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.rare-earth-mud"
+      ],
+      "[color=51,48,31] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tar" : {
+    "name" : "tar",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tar"
+      ],
+      "[color=16,41,30] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "water-saline" : {
+    "name" : "water-saline",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.water-saline"
+      ],
+      "[color=229,229,255] ■[\/color]"
+    ],
+    "order" : "",
+    "default_temperature" : 25,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "creosote" : {
+    "name" : "creosote",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.creosote"
+      ],
+      "[color=91,63,17] ■[\/color]"
+    ],
+    "order" : "creosote",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "glycerol" : {
+    "name" : "glycerol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.glycerol"
+      ],
+      "[color=232,226,153] ■[\/color]"
+    ],
+    "order" : "z-[glycerol]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "niobium-complex" : {
+    "name" : "niobium-complex",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.niobium-complex"
+      ],
+      "[color=122,154,165] ■[\/color]"
+    ],
+    "order" : "z-[niobium-complex]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "oleochemicals" : {
+    "name" : "oleochemicals",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.oleochemicals"
+      ],
+      "[color=221,182,0] ■[\/color]"
+    ],
+    "order" : "z-[oleochemicals]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "organic-solvent" : {
+    "name" : "organic-solvent",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.organic-solvent"
+      ],
+      "[color=43,179,113] ■[\/color]"
+    ],
+    "order" : "z-[organic-solvent]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "slacked-lime" : {
+    "name" : "slacked-lime",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.slacked-lime"
+      ],
+      "[color=196,196,196] ■[\/color]"
+    ],
+    "order" : "z-[slacked-lime]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molybdenite-pulp" : {
+    "name" : "molybdenite-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molybdenite-pulp"
+      ],
+      "[color=80,156,216] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molybdenum-pulp" : {
+    "name" : "molybdenum-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molybdenum-pulp"
+      ],
+      "[color=70,91,116] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "critical-steam" : {
+    "name" : "critical-steam",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.critical-steam"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 5000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "deuterium" : {
+    "name" : "deuterium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.deuterium"
+      ],
+      "[color=107,172,209] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "grease" : {
+    "name" : "grease",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.grease"
+      ],
+      "[color=137,174,63] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "heavy-water" : {
+    "name" : "heavy-water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.heavy-water"
+      ],
+      "[color=107,172,209] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "helium3" : {
+    "name" : "helium3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.helium3"
+      ],
+      "[color=150,55,124] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pressured-steam" : {
+    "name" : "pressured-steam",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pressured-steam"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 5000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "proton" : {
+    "name" : "proton",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.proton"
+      ],
+      "[color=82,234,86] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tritium" : {
+    "name" : "tritium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tritium"
+      ],
+      "[color=255,244,99] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vacuum" : {
+    "name" : "vacuum",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vacuum"
+      ],
+      "[color=2,2,2] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "bacteria-1" : {
+    "name" : "bacteria-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bacteria-1"
+      ],
+      "[color=212,62,85] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ethanolamine" : {
+    "name" : "ethanolamine",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethanolamine"
+      ],
+      "[color=233,220,91] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "high-purified-gas" : {
+    "name" : "high-purified-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.high-purified-gas"
+      ],
+      "[color=243,202,136] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-rich-gas" : {
+    "name" : "liquid-rich-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-rich-gas"
+      ],
+      "[color=59,165,110] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "phytoplankton" : {
+    "name" : "phytoplankton",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phytoplankton"
+      ],
+      "[color=55,159,60] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purier-helium" : {
+    "name" : "purier-helium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purier-helium"
+      ],
+      "[color=255,242,212] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "rich-gas" : {
+    "name" : "rich-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.rich-gas"
+      ],
+      "[color=59,165,110] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "xyhiphoe-blood" : {
+    "name" : "xyhiphoe-blood",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.xyhiphoe-blood"
+      ],
+      "[color=70,0,202] ■[\/color]"
+    ],
+    "order" : "e",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pressured-water" : {
+    "name" : "pressured-water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pressured-water"
+      ],
+      "[color=7,94,107] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "waste-water" : {
+    "name" : "waste-water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.waste-water"
+      ],
+      "[color=69,86,79] ■[\/color]"
+    ],
+    "order" : "g",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vanabins" : {
+    "name" : "vanabins",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vanabins"
+      ],
+      "[color=113,27,255] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acid-strip-solution" : {
+    "name" : "acid-strip-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acid-strip-solution"
+      ],
+      "[color=132,44,0] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "blue-liquor" : {
+    "name" : "blue-liquor",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.blue-liquor"
+      ],
+      "[color=34,133,255] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "diamond-concentrate" : {
+    "name" : "diamond-concentrate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.diamond-concentrate"
+      ],
+      "[color=159,194,216] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "diamond-tailings" : {
+    "name" : "diamond-tailings",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.diamond-tailings"
+      ],
+      "[color=80,119,122] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "jig-concentrate" : {
+    "name" : "jig-concentrate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.jig-concentrate"
+      ],
+      "[color=121,204,241] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "kimberlite-pulp" : {
+    "name" : "kimberlite-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.kimberlite-pulp"
+      ],
+      "[color=121,138,141] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp1" : {
+    "name" : "vpulp1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp1"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "i",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "jig-grade1" : {
+    "name" : "jig-grade1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.jig-grade1"
+      ],
+      "[color=233,129,157] ■[\/color]"
+    ],
+    "order" : "j",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "jig-grade2" : {
+    "name" : "jig-grade2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.jig-grade2"
+      ],
+      "[color=253,70,146] ■[\/color]"
+    ],
+    "order" : "j",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "jig-grade3" : {
+    "name" : "jig-grade3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.jig-grade3"
+      ],
+      "[color=189,57,124] ■[\/color]"
+    ],
+    "order" : "j",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp-precip" : {
+    "name" : "vpulp-precip",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp-precip"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "k",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp2" : {
+    "name" : "vpulp2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp2"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "k",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp4" : {
+    "name" : "vpulp4",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp4"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "k",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp5" : {
+    "name" : "vpulp5",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp5"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "k",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vpulp3" : {
+    "name" : "vpulp3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vpulp3"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "l",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pressured-vpulp" : {
+    "name" : "pressured-vpulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pressured-vpulp"
+      ],
+      "[color=221,0,255] ■[\/color]"
+    ],
+    "order" : "m",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vanadates" : {
+    "name" : "vanadates",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vanadates"
+      ],
+      "[color=35,20,100] ■[\/color]"
+    ],
+    "order" : "n",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "organic-vanadate" : {
+    "name" : "organic-vanadate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.organic-vanadate"
+      ],
+      "[color=159,95,31] ■[\/color]"
+    ],
+    "order" : "o",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vanadium-solution" : {
+    "name" : "vanadium-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vanadium-solution"
+      ],
+      "[color=220,48,48] ■[\/color]"
+    ],
+    "order" : "p",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "used-solvent" : {
+    "name" : "used-solvent",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.used-solvent"
+      ],
+      "[color=76,76,76] ■[\/color]"
+    ],
+    "order" : "q",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vanadium-concentrate" : {
+    "name" : "vanadium-concentrate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vanadium-concentrate"
+      ],
+      "[color=100,178,154] ■[\/color]"
+    ],
+    "order" : "q",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "industrial-solvent" : {
+    "name" : "industrial-solvent",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.industrial-solvent"
+      ],
+      "[color=239,77,54] ■[\/color]"
+    ],
+    "order" : "r",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pregnant-solution" : {
+    "name" : "pregnant-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pregnant-solution"
+      ],
+      "[color=223,184,71] ■[\/color]"
+    ],
+    "order" : "s",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "soda-ash" : {
+    "name" : "soda-ash",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.soda-ash"
+      ],
+      "[color=172,182,197] ■[\/color]"
+    ],
+    "order" : "s",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cold-air" : {
+    "name" : "cold-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cold-air"
+      ],
+      "[color=68,99,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cold-clean-air" : {
+    "name" : "cold-clean-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cold-clean-air"
+      ],
+      "[color=142,219,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dry-gas-stream" : {
+    "name" : "dry-gas-stream",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dry-gas-stream"
+      ],
+      "[color=201,97,73] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "gas-stream" : {
+    "name" : "gas-stream",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.gas-stream"
+      ],
+      "[color=176,72,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "helium" : {
+    "name" : "helium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.helium"
+      ],
+      "[color=255,242,212] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "helium-rich-gas" : {
+    "name" : "helium-rich-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.helium-rich-gas"
+      ],
+      "[color=187,207,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-helium" : {
+    "name" : "liquid-helium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-helium"
+      ],
+      "[color=255,242,212] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-nitrogen" : {
+    "name" : "liquid-nitrogen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-nitrogen"
+      ],
+      "[color=68,99,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-petgas" : {
+    "name" : "liquid-petgas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-petgas"
+      ],
+      "[color=127,127,127] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-pure-air" : {
+    "name" : "liquid-pure-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-pure-air"
+      ],
+      "[color=142,219,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pressured-air" : {
+    "name" : "pressured-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pressured-air"
+      ],
+      "[color=68,196,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purified-air" : {
+    "name" : "purified-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purified-air"
+      ],
+      "[color=68,196,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "crude-oil" : {
+    "name" : "crude-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.crude-oil"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "a[fluid]-b[crude-oil]",
+    "default_temperature" : 25,
+    "max_temperature" : 25,
+    "fuel_value" : 82500,
+    "emissions_multiplier" : 1
+  },
+  "gasoline" : {
+    "name" : "gasoline",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.gasoline"
+      ],
+      "[color=197,180,10] ■[\/color]"
+    ],
+    "order" : "z-[gasoline]",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1200000,
+    "emissions_multiplier" : 1
+  },
+  "aniline" : {
+    "name" : "aniline",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.aniline"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "bca" : {
+    "name" : "bca",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bca"
+      ],
+      "[color=153,153,165] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "buffer-solution" : {
+    "name" : "buffer-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.buffer-solution"
+      ],
+      "[color=105,65,130] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chloroauric-acid" : {
+    "name" : "chloroauric-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chloroauric-acid"
+      ],
+      "[color=253,211,79] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "clean-organic-pulp" : {
+    "name" : "clean-organic-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.clean-organic-pulp"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "crude-enzyme" : {
+    "name" : "crude-enzyme",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.crude-enzyme"
+      ],
+      "[color=40,83,51] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dcm" : {
+    "name" : "dcm",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dcm"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "geothermal-water" : {
+    "name" : "geothermal-water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.geothermal-water"
+      ],
+      "[color=170,111,15] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 3000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-nxzngd" : {
+    "name" : "molten-nxzngd",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-nxzngd"
+      ],
+      "[color=42,133,129] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mova-pulp1" : {
+    "name" : "mova-pulp1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mova-pulp1"
+      ],
+      "[color=105,65,130] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mova-pulp2" : {
+    "name" : "mova-pulp2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mova-pulp2"
+      ],
+      "[color=105,65,130] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mova-pulp3" : {
+    "name" : "mova-pulp3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mova-pulp3"
+      ],
+      "[color=105,65,130] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "organic-pulp" : {
+    "name" : "organic-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.organic-pulp"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-enzyme" : {
+    "name" : "pre-enzyme",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-enzyme"
+      ],
+      "[color=40,83,51] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "teos" : {
+    "name" : "teos",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.teos"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "trichlorosilane" : {
+    "name" : "trichlorosilane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.trichlorosilane"
+      ],
+      "[color=103,125,125] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pure-trichlorosilane" : {
+    "name" : "pure-trichlorosilane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pure-trichlorosilane"
+      ],
+      "[color=129,151,151] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "allylamine" : {
+    "name" : "allylamine",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.allylamine"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "anolyte" : {
+    "name" : "anolyte",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.anolyte"
+      ],
+      "[color=110,210,4] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "butanol" : {
+    "name" : "butanol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.butanol"
+      ],
+      "[color=205,241,239] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dirty-water-light" : {
+    "name" : "dirty-water-light",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dirty-water-light"
+      ],
+      "[color=108,54,54] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fatty-acids" : {
+    "name" : "fatty-acids",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fatty-acids"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "filtered-silicate-solution" : {
+    "name" : "filtered-silicate-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.filtered-silicate-solution"
+      ],
+      "[color=58,49,82] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fluorine-gas" : {
+    "name" : "fluorine-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fluorine-gas"
+      ],
+      "[color=109,141,159] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hot-molten-salt" : {
+    "name" : "hot-molten-salt",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-molten-salt"
+      ],
+      "[color=214,132,132] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 1000,
+    "max_temperature" : 5000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hot-solution" : {
+    "name" : "hot-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-solution"
+      ],
+      "[color=109,141,159] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hydrofluoric-acid" : {
+    "name" : "hydrofluoric-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hydrofluoric-acid"
+      ],
+      "[color=109,141,159] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "middle-processed-lard" : {
+    "name" : "middle-processed-lard",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.middle-processed-lard"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-fluoride-thorium" : {
+    "name" : "molten-fluoride-thorium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-fluoride-thorium"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-fluoride-thorium-pa233" : {
+    "name" : "molten-fluoride-thorium-pa233",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-fluoride-thorium-pa233"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-fluoride-u233" : {
+    "name" : "molten-fluoride-u233",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-fluoride-u233"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 10000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-salt" : {
+    "name" : "molten-salt",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-salt"
+      ],
+      "[color=184,193,183] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 1000,
+    "max_temperature" : 5000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mother-liquor" : {
+    "name" : "mother-liquor",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mother-liquor"
+      ],
+      "[color=70,163,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-carbonyl" : {
+    "name" : "nickel-carbonyl",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-carbonyl"
+      ],
+      "[color=205,25,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "numal-ink" : {
+    "name" : "numal-ink",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.numal-ink"
+      ],
+      "[color=2,2,2] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 10,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "organic-acid-anhydride" : {
+    "name" : "organic-acid-anhydride",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.organic-acid-anhydride"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "perylene" : {
+    "name" : "perylene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.perylene"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "phosphorus-tricloride" : {
+    "name" : "phosphorus-tricloride",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phosphorus-tricloride"
+      ],
+      "[color=255,255,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "phosphoryl-chloride" : {
+    "name" : "phosphoryl-chloride",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phosphoryl-chloride"
+      ],
+      "[color=25,25,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-phenothiazine" : {
+    "name" : "pre-phenothiazine",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-phenothiazine"
+      ],
+      "[color=161,57,30] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "processed-fatty-acids" : {
+    "name" : "processed-fatty-acids",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.processed-fatty-acids"
+      ],
+      "[color=179,182,57] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "r1" : {
+    "name" : "r1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.r1"
+      ],
+      "[color=70,163,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "r2" : {
+    "name" : "r2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.r2"
+      ],
+      "[color=70,163,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "r3" : {
+    "name" : "r3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.r3"
+      ],
+      "[color=70,163,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "r4" : {
+    "name" : "r4",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.r4"
+      ],
+      "[color=70,163,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "salt-solution" : {
+    "name" : "salt-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.salt-solution"
+      ],
+      "[color=111,162,146] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "silicate-solution" : {
+    "name" : "silicate-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.silicate-solution"
+      ],
+      "[color=104,95,91] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vinyl-acetate" : {
+    "name" : "vinyl-acetate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vinyl-acetate"
+      ],
+      "[color=230,233,134] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mukmoux-oil" : {
+    "name" : "mukmoux-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mukmoux-oil"
+      ],
+      "[color=184,122,5] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ac" : {
+    "name" : "ac",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ac"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ac-oxygenated" : {
+    "name" : "ac-oxygenated",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ac-oxygenated"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "c-oxygenated" : {
+    "name" : "c-oxygenated",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.c-oxygenated"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "neutron" : {
+    "name" : "neutron",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.neutron"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "plutonium-peroxide" : {
+    "name" : "plutonium-peroxide",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.plutonium-peroxide"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-concentrate-1" : {
+    "name" : "purex-concentrate-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-concentrate-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-concentrate-2" : {
+    "name" : "purex-concentrate-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-concentrate-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-concentrate-3" : {
+    "name" : "purex-concentrate-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-concentrate-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-concentrate-4" : {
+    "name" : "purex-concentrate-4",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-concentrate-4"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-concentrate-5" : {
+    "name" : "purex-concentrate-5",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-concentrate-5"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-pu-concentrate-1" : {
+    "name" : "purex-pu-concentrate-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-pu-concentrate-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-pu-concentrate-2" : {
+    "name" : "purex-pu-concentrate-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-pu-concentrate-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-pu-concentrate-3" : {
+    "name" : "purex-pu-concentrate-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-pu-concentrate-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-raffinate" : {
+    "name" : "purex-raffinate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-raffinate"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-raffinate-2" : {
+    "name" : "purex-raffinate-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-raffinate-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-raffinate-3" : {
+    "name" : "purex-raffinate-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-raffinate-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-u-concentrate-1" : {
+    "name" : "purex-u-concentrate-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-u-concentrate-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-u-concentrate-2" : {
+    "name" : "purex-u-concentrate-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-u-concentrate-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-u-concentrate-3" : {
+    "name" : "purex-u-concentrate-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-u-concentrate-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-waste-1" : {
+    "name" : "purex-waste-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-waste-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-waste-2" : {
+    "name" : "purex-waste-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-waste-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purex-waste-3" : {
+    "name" : "purex-waste-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purex-waste-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "reactor-waste-1" : {
+    "name" : "reactor-waste-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.reactor-waste-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "reactor-waste-2" : {
+    "name" : "reactor-waste-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.reactor-waste-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-phosphate-1" : {
+    "name" : "sb-phosphate-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-phosphate-1"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-phosphate-2" : {
+    "name" : "sb-phosphate-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-phosphate-2"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-phosphate-3" : {
+    "name" : "sb-phosphate-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-phosphate-3"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 1000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "uf6" : {
+    "name" : "uf6",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.uf6"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 0.01,
+    "max_temperature" : 10000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "void" : {
+    "name" : "void",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.void"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 0,
+    "max_temperature" : 5000,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "formamide" : {
+    "name" : "formamide",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.formamide"
+      ],
+      "[color=198,129,206] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "a-molasse" : {
+    "name" : "a-molasse",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.a-molasse"
+      ],
+      "[color=86,54,43] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "arqad-jelly" : {
+    "name" : "arqad-jelly",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.arqad-jelly"
+      ],
+      "[color=35,19,70] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "arthropod-blood" : {
+    "name" : "arthropod-blood",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.arthropod-blood"
+      ],
+      "[color=118,0,216] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "artificial-blood" : {
+    "name" : "artificial-blood",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.artificial-blood"
+      ],
+      "[color=167,109,175] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "autoantigens" : {
+    "name" : "autoantigens",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.autoantigens"
+      ],
+      "[color=192,30,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "b-molasse" : {
+    "name" : "b-molasse",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.b-molasse"
+      ],
+      "[color=76,90,44] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "bee-venom" : {
+    "name" : "bee-venom",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bee-venom"
+      ],
+      "[color=181,173,133] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "bio-oil" : {
+    "name" : "bio-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bio-oil"
+      ],
+      "[color=86,122,4] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 800000,
+    "emissions_multiplier" : 1
+  },
+  "blood" : {
+    "name" : "blood",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.blood"
+      ],
+      "[color=217,55,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cadaveric-arum-mk02-seed-juice" : {
+    "name" : "cadaveric-arum-mk02-seed-juice",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cadaveric-arum-mk02-seed-juice"
+      ],
+      "[color=137,202,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cadaveric-arum-mk03-seed-juice" : {
+    "name" : "cadaveric-arum-mk03-seed-juice",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cadaveric-arum-mk03-seed-juice"
+      ],
+      "[color=137,202,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cadaveric-arum-mk04-seed-juice" : {
+    "name" : "cadaveric-arum-mk04-seed-juice",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cadaveric-arum-mk04-seed-juice"
+      ],
+      "[color=137,202,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "casein-mixture" : {
+    "name" : "casein-mixture",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.casein-mixture"
+      ],
+      "[color=189,176,111] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "casein-pulp-01" : {
+    "name" : "casein-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.casein-pulp-01"
+      ],
+      "[color=154,144,80] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "casein-pulp-02" : {
+    "name" : "casein-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.casein-pulp-02"
+      ],
+      "[color=154,144,80] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "casein-solution" : {
+    "name" : "casein-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.casein-solution"
+      ],
+      "[color=164,177,127] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chelator" : {
+    "name" : "chelator",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chelator"
+      ],
+      "[color=51,76,23] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chloral" : {
+    "name" : "chloral",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chloral"
+      ],
+      "[color=142,177,112] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dda" : {
+    "name" : "dda",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dda"
+      ],
+      "[color=137,73,62] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "decalin" : {
+    "name" : "decalin",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.decalin"
+      ],
+      "[color=44,102,102] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "depolymerized-organics" : {
+    "name" : "depolymerized-organics",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.depolymerized-organics"
+      ],
+      "[color=22,42,72] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ethanol" : {
+    "name" : "ethanol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethanol"
+      ],
+      "[color=89,199,181] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ethyl-mercaptan" : {
+    "name" : "ethyl-mercaptan",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethyl-mercaptan"
+      ],
+      "[color=115,90,38] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fetal-serum" : {
+    "name" : "fetal-serum",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fetal-serum"
+      ],
+      "[color=218,142,109] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fish-emulsion" : {
+    "name" : "fish-emulsion",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fish-emulsion"
+      ],
+      "[color=81,69,69] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fish-hydrolysate" : {
+    "name" : "fish-hydrolysate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fish-hydrolysate"
+      ],
+      "[color=81,69,69] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fish-oil" : {
+    "name" : "fish-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fish-oil"
+      ],
+      "[color=245,204,29] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "flavonoids" : {
+    "name" : "flavonoids",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.flavonoids"
+      ],
+      "[color=80,94,30] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "flutec-pp6" : {
+    "name" : "flutec-pp6",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.flutec-pp6"
+      ],
+      "[color=53,95,130] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "gta" : {
+    "name" : "gta",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.gta"
+      ],
+      "[color=142,49,69] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mcb" : {
+    "name" : "mcb",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mcb"
+      ],
+      "[color=79,140,141] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "milk" : {
+    "name" : "milk",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.milk"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "mutant-enzymes" : {
+    "name" : "mutant-enzymes",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mutant-enzymes"
+      ],
+      "[color=25,28,25] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nitrogen-mustard" : {
+    "name" : "nitrogen-mustard",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nitrogen-mustard"
+      ],
+      "[color=208,141,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-pesticide-01" : {
+    "name" : "pre-pesticide-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-pesticide-01"
+      ],
+      "[color=179,113,103] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-pesticide-02" : {
+    "name" : "pre-pesticide-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-pesticide-02"
+      ],
+      "[color=16,20,16] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "psc" : {
+    "name" : "psc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.psc"
+      ],
+      "[color=134,85,63] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "subcritical-water" : {
+    "name" : "subcritical-water",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.subcritical-water"
+      ],
+      "[color=0,86,153] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sweet-syrup" : {
+    "name" : "sweet-syrup",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sweet-syrup"
+      ],
+      "[color=143,102,86] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "syrup-01" : {
+    "name" : "syrup-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.syrup-01"
+      ],
+      "[color=168,45,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "wax" : {
+    "name" : "wax",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.wax"
+      ],
+      "[color=81,69,69] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "xenogenic-cells" : {
+    "name" : "xenogenic-cells",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.xenogenic-cells"
+      ],
+      "[color=90,97,97] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "carbon-dioxide" : {
+    "name" : "carbon-dioxide",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.carbon-dioxide"
+      ],
+      "[color=205,241,239] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "simik-blood" : {
+    "name" : "simik-blood",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.simik-blood"
+      ],
+      "[color=73,98,43] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "arqad-honey" : {
+    "name" : "arqad-honey",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.arqad-honey"
+      ],
+      "[color=80,23,36] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-fiber-1" : {
+    "name" : "pre-fiber-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-fiber-1"
+      ],
+      "[color=193,120,85] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-fiber-2" : {
+    "name" : "pre-fiber-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-fiber-2"
+      ],
+      "[color=193,120,85] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pre-fiber-3" : {
+    "name" : "pre-fiber-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pre-fiber-3"
+      ],
+      "[color=193,120,85] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "creamy-latex" : {
+    "name" : "creamy-latex",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.creamy-latex"
+      ],
+      "[color=232,232,232] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "formic-acid" : {
+    "name" : "formic-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.formic-acid"
+      ],
+      "[color=181,181,181] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "liquid-manure" : {
+    "name" : "liquid-manure",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.liquid-manure"
+      ],
+      "[color=130,128,79] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "manure-bacteria" : {
+    "name" : "manure-bacteria",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.manure-bacteria"
+      ],
+      "[color=128,162,135] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zogna-bacteria" : {
+    "name" : "zogna-bacteria",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zogna-bacteria"
+      ],
+      "[color=32,27,61] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acidgas" : {
+    "name" : "acidgas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acidgas"
+      ],
+      "[color=188,200,49] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dms" : {
+    "name" : "dms",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dms"
+      ],
+      "[color=232,223,0] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "methane" : {
+    "name" : "methane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.methane"
+      ],
+      "[color=116,196,157] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 800000,
+    "emissions_multiplier" : 1
+  },
+  "ammonia" : {
+    "name" : "ammonia",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ammonia"
+      ],
+      "[color=229,229,255] ■[\/color]"
+    ],
+    "order" : "a1",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cyanic-acid" : {
+    "name" : "cyanic-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cyanic-acid"
+      ],
+      "[color=85,115,184] ■[\/color]"
+    ],
+    "order" : "a2",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acetic-acid" : {
+    "name" : "acetic-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acetic-acid"
+      ],
+      "[color=149,69,107] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acrolein" : {
+    "name" : "acrolein",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acrolein"
+      ],
+      "[color=131,63,0] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "black-liquor" : {
+    "name" : "black-liquor",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.black-liquor"
+      ],
+      "[color=32,0,0] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "ethylene" : {
+    "name" : "ethylene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethylene"
+      ],
+      "[color=228,205,194] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "methanal" : {
+    "name" : "methanal",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.methanal"
+      ],
+      "[color=142,55,29] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nitrobenzene" : {
+    "name" : "nitrobenzene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nitrobenzene"
+      ],
+      "[color=139,97,56] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "propene" : {
+    "name" : "propene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.propene"
+      ],
+      "[color=145,110,169] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "raw-ralesia-extract" : {
+    "name" : "raw-ralesia-extract",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.raw-ralesia-extract"
+      ],
+      "[color=204,143,20] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tall-oil" : {
+    "name" : "tall-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tall-oil"
+      ],
+      "[color=197,191,118] ■[\/color]"
+    ],
+    "order" : "b",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "bacteria-2" : {
+    "name" : "bacteria-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bacteria-2"
+      ],
+      "[color=121,204,199] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "carbon-sulfide" : {
+    "name" : "carbon-sulfide",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.carbon-sulfide"
+      ],
+      "[color=179,179,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chloromethane" : {
+    "name" : "chloromethane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chloromethane"
+      ],
+      "[color=81,139,81] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cumene" : {
+    "name" : "cumene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cumene"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dimethyldichlorosilane" : {
+    "name" : "dimethyldichlorosilane",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dimethyldichlorosilane"
+      ],
+      "[color=56,114,56] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ech" : {
+    "name" : "ech",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ech"
+      ],
+      "[color=5,243,43] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "etching" : {
+    "name" : "etching",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.etching"
+      ],
+      "[color=0,72,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "msa" : {
+    "name" : "msa",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.msa"
+      ],
+      "[color=129,15,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "phosphoric-acid" : {
+    "name" : "phosphoric-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phosphoric-acid"
+      ],
+      "[color=198,2,89] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "phosphorous-acid" : {
+    "name" : "phosphorous-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phosphorous-acid"
+      ],
+      "[color=215,12,249] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ralesia-extract" : {
+    "name" : "ralesia-extract",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ralesia-extract"
+      ],
+      "[color=230,169,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "re-pulp-01" : {
+    "name" : "re-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.re-pulp-01"
+      ],
+      "[color=105,96,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "re-pulp-02" : {
+    "name" : "re-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.re-pulp-02"
+      ],
+      "[color=105,96,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "re-pulp-03" : {
+    "name" : "re-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.re-pulp-03"
+      ],
+      "[color=105,96,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "re-pulp-04" : {
+    "name" : "re-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.re-pulp-04"
+      ],
+      "[color=105,96,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ree-slurry" : {
+    "name" : "ree-slurry",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ree-slurry"
+      ],
+      "[color=6,100,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ree-solution" : {
+    "name" : "ree-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ree-solution"
+      ],
+      "[color=6,100,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acetone" : {
+    "name" : "acetone",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acetone"
+      ],
+      "[color=0,168,156] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "benzene" : {
+    "name" : "benzene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.benzene"
+      ],
+      "[color=253,230,219] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "phosphine-gas" : {
+    "name" : "phosphine-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.phosphine-gas"
+      ],
+      "[color=170,2,143] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "soaked-gel" : {
+    "name" : "soaked-gel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.soaked-gel"
+      ],
+      "[color=80,153,194] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "bitumen" : {
+    "name" : "bitumen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bitumen"
+      ],
+      "[color=2,2,2] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "bitumen-froth" : {
+    "name" : "bitumen-froth",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.bitumen-froth"
+      ],
+      "[color=72,56,40] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "btx" : {
+    "name" : "btx",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.btx"
+      ],
+      "[color=29,49,78] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "chloroethanol" : {
+    "name" : "chloroethanol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chloroethanol"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coalbed-gas" : {
+    "name" : "coalbed-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coalbed-gas"
+      ],
+      "[color=109,47,39] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "condensates" : {
+    "name" : "condensates",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.condensates"
+      ],
+      "[color=113,113,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "condensed-distillate" : {
+    "name" : "condensed-distillate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.condensed-distillate"
+      ],
+      "[color=39,0,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "dirty-syngas" : {
+    "name" : "dirty-syngas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dirty-syngas"
+      ],
+      "[color=153,92,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "ethylene-chlorohydrin" : {
+    "name" : "ethylene-chlorohydrin",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethylene-chlorohydrin"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ethylene-glycol" : {
+    "name" : "ethylene-glycol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ethylene-glycol"
+      ],
+      "[color=73,155,183] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fuel-oil" : {
+    "name" : "fuel-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fuel-oil"
+      ],
+      "[color=238,155,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 800000,
+    "emissions_multiplier" : 1
+  },
+  "high-distillate" : {
+    "name" : "high-distillate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.high-distillate"
+      ],
+      "[color=39,0,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "hot-air" : {
+    "name" : "hot-air",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-air"
+      ],
+      "[color=255,63,51] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hot-reaction-gas" : {
+    "name" : "hot-reaction-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-reaction-gas"
+      ],
+      "[color=40,31,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hot-residual-mixture" : {
+    "name" : "hot-residual-mixture",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-residual-mixture"
+      ],
+      "[color=52,12,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 100000,
+    "emissions_multiplier" : 1
+  },
+  "hot-syngas" : {
+    "name" : "hot-syngas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hot-syngas"
+      ],
+      "[color=178,118,32] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "low-distillate" : {
+    "name" : "low-distillate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.low-distillate"
+      ],
+      "[color=39,0,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "medium-distillate" : {
+    "name" : "medium-distillate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.medium-distillate"
+      ],
+      "[color=39,0,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "naphtha" : {
+    "name" : "naphtha",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.naphtha"
+      ],
+      "[color=84,36,32] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 600000,
+    "emissions_multiplier" : 1
+  },
+  "natural-gas" : {
+    "name" : "natural-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.natural-gas"
+      ],
+      "[color=143,255,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 90000,
+    "emissions_multiplier" : 1
+  },
+  "oil-sand-slurry" : {
+    "name" : "oil-sand-slurry",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.oil-sand-slurry"
+      ],
+      "[color=72,56,40] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "polybutadiene" : {
+    "name" : "polybutadiene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.polybutadiene"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pressured-hydrogen" : {
+    "name" : "pressured-hydrogen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pressured-hydrogen"
+      ],
+      "[color=40,31,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "processed-light-oil" : {
+    "name" : "processed-light-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.processed-light-oil"
+      ],
+      "[color=40,31,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "proto-tholins" : {
+    "name" : "proto-tholins",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.proto-tholins"
+      ],
+      "[color=153,56,31] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "pure-natural-gas" : {
+    "name" : "pure-natural-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.pure-natural-gas"
+      ],
+      "[color=253,165,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "purified-natural-gas" : {
+    "name" : "purified-natural-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purified-natural-gas"
+      ],
+      "[color=192,252,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "purified-syngas" : {
+    "name" : "purified-syngas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purified-syngas"
+      ],
+      "[color=178,118,32] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "raw-gas" : {
+    "name" : "raw-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.raw-gas"
+      ],
+      "[color=214,118,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "refined-natural-gas" : {
+    "name" : "refined-natural-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.refined-natural-gas"
+      ],
+      "[color=118,229,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 300000,
+    "emissions_multiplier" : 1
+  },
+  "residual-gas" : {
+    "name" : "residual-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.residual-gas"
+      ],
+      "[color=103,96,155] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 200000,
+    "emissions_multiplier" : 1
+  },
+  "residual-mixture" : {
+    "name" : "residual-mixture",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.residual-mixture"
+      ],
+      "[color=52,12,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 100000,
+    "emissions_multiplier" : 1
+  },
+  "residual-oil" : {
+    "name" : "residual-oil",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.residual-oil"
+      ],
+      "[color=52,12,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 300000,
+    "emissions_multiplier" : 1
+  },
+  "scrude" : {
+    "name" : "scrude",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.scrude"
+      ],
+      "[color=2,2,2] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "stripped-distillate" : {
+    "name" : "stripped-distillate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.stripped-distillate"
+      ],
+      "[color=39,0,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 400000,
+    "emissions_multiplier" : 1
+  },
+  "styrene" : {
+    "name" : "styrene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.styrene"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tholins" : {
+    "name" : "tholins",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tholins"
+      ],
+      "[color=153,56,31] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "drilling-fluid-0" : {
+    "name" : "drilling-fluid-0",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.drilling-fluid-0"
+      ],
+      "[color=0,196,141] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 5,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "drilling-fluid-1" : {
+    "name" : "drilling-fluid-1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.drilling-fluid-1"
+      ],
+      "[color=0,196,141] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "drilling-fluid-2" : {
+    "name" : "drilling-fluid-2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.drilling-fluid-2"
+      ],
+      "[color=249,173,0] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "drilling-fluid-3" : {
+    "name" : "drilling-fluid-3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.drilling-fluid-3"
+      ],
+      "[color=201,51,65] ■[\/color]"
+    ],
+    "order" : "h",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-stainless-steel" : {
+    "name" : "molten-stainless-steel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-stainless-steel"
+      ],
+      "[color=127,127,153] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-stainless-steel-p1" : {
+    "name" : "molten-stainless-steel-p1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-stainless-steel-p1"
+      ],
+      "[color=127,127,153] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-stainless-steel-p2" : {
+    "name" : "molten-stainless-steel-p2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-stainless-steel-p2"
+      ],
+      "[color=127,127,153] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-stainless-steel-p3" : {
+    "name" : "molten-stainless-steel-p3",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-stainless-steel-p3"
+      ],
+      "[color=127,127,153] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-steel" : {
+    "name" : "molten-steel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-steel"
+      ],
+      "[color=127,127,127] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-super-steel" : {
+    "name" : "molten-super-steel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-super-steel"
+      ],
+      "[color=153,127,127] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-super-steel-p1" : {
+    "name" : "molten-super-steel-p1",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-super-steel-p1"
+      ],
+      "[color=153,127,127] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-super-steel-p2" : {
+    "name" : "molten-super-steel-p2",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-super-steel-p2"
+      ],
+      "[color=153,127,127] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "al-pulp-01" : {
+    "name" : "al-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.al-pulp-01"
+      ],
+      "[color=210,144,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-aluminium" : {
+    "name" : "molten-aluminium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-aluminium"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "al-pulp-02" : {
+    "name" : "al-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.al-pulp-02"
+      ],
+      "[color=210,144,0] ■[\/color]"
+    ],
+    "order" : "d",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "al-pulp-03" : {
+    "name" : "al-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.al-pulp-03"
+      ],
+      "[color=210,144,0] ■[\/color]"
+    ],
+    "order" : "e",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "al-pulp-04" : {
+    "name" : "al-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.al-pulp-04"
+      ],
+      "[color=210,144,0] ■[\/color]"
+    ],
+    "order" : "f",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-concentrate" : {
+    "name" : "chromite-concentrate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-concentrate"
+      ],
+      "[color=54,167,170] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-fines" : {
+    "name" : "chromite-fines",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-fines"
+      ],
+      "[color=54,167,170] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-mix" : {
+    "name" : "chromite-mix",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-mix"
+      ],
+      "[color=14,129,200] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-01" : {
+    "name" : "chromite-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-01"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-02" : {
+    "name" : "chromite-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-02"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-03" : {
+    "name" : "chromite-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-03"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-04" : {
+    "name" : "chromite-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-04"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-05" : {
+    "name" : "chromite-pulp-05",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-05"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-06" : {
+    "name" : "chromite-pulp-06",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-06"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-pulp-07" : {
+    "name" : "chromite-pulp-07",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-pulp-07"
+      ],
+      "[color=219,74,7] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromite-solution" : {
+    "name" : "chromite-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromite-solution"
+      ],
+      "[color=28,141,144] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chromium-rejects" : {
+    "name" : "chromium-rejects",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chromium-rejects"
+      ],
+      "[color=123,140,84] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-chromium" : {
+    "name" : "molten-chromium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-chromium"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "prepared-chromium" : {
+    "name" : "prepared-chromium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.prepared-chromium"
+      ],
+      "[color=54,167,170] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-fines" : {
+    "name" : "coal-fines",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-fines"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-pulp-01" : {
+    "name" : "coal-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-pulp-01"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-pulp-02" : {
+    "name" : "coal-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-pulp-02"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-pulp-03" : {
+    "name" : "coal-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-pulp-03"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-pulp-04" : {
+    "name" : "coal-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-pulp-04"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-pulp-05" : {
+    "name" : "coal-pulp-05",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-pulp-05"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-slime-overflow" : {
+    "name" : "coal-slime-overflow",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-slime-overflow"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coal-under-pulp" : {
+    "name" : "coal-under-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coal-under-pulp"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "conditioned-fines" : {
+    "name" : "conditioned-fines",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.conditioned-fines"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "fines-pulp" : {
+    "name" : "fines-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.fines-pulp"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "high-ash-fines" : {
+    "name" : "high-ash-fines",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.high-ash-fines"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "thickened-coal-fines" : {
+    "name" : "thickened-coal-fines",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.thickened-coal-fines"
+      ],
+      "[color=0,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "coke-oven-gas" : {
+    "name" : "coke-oven-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.coke-oven-gas"
+      ],
+      "[color=244,178,52] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 1000,
+    "fuel_value" : 1000000,
+    "emissions_multiplier" : 1
+  },
+  "outlet-gas-01" : {
+    "name" : "outlet-gas-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.outlet-gas-01"
+      ],
+      "[color=244,178,52] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "outlet-gas-02" : {
+    "name" : "outlet-gas-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.outlet-gas-02"
+      ],
+      "[color=244,178,52] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "outlet-gas-03" : {
+    "name" : "outlet-gas-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.outlet-gas-03"
+      ],
+      "[color=244,178,52] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "outlet-gas-04" : {
+    "name" : "outlet-gas-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.outlet-gas-04"
+      ],
+      "[color=244,178,52] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 1000,
+    "fuel_value" : 500000,
+    "emissions_multiplier" : 1
+  },
+  "copper-pregnant-solution" : {
+    "name" : "copper-pregnant-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-pregnant-solution"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "copper-pulp-01" : {
+    "name" : "copper-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-pulp-01"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "copper-pulp-02" : {
+    "name" : "copper-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-pulp-02"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "copper-pulp-03" : {
+    "name" : "copper-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-pulp-03"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "copper-pulp-04" : {
+    "name" : "copper-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-pulp-04"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "copper-solution" : {
+    "name" : "copper-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.copper-solution"
+      ],
+      "[color=242,141,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-copper" : {
+    "name" : "molten-copper",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-copper"
+      ],
+      "[color=255,167,25] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-01" : {
+    "name" : "iron-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-01"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-02" : {
+    "name" : "iron-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-02"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-03" : {
+    "name" : "iron-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-03"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-04" : {
+    "name" : "iron-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-04"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-05" : {
+    "name" : "iron-pulp-05",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-05"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-06" : {
+    "name" : "iron-pulp-06",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-06"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-pulp-07" : {
+    "name" : "iron-pulp-07",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-pulp-07"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "iron-slime" : {
+    "name" : "iron-slime",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.iron-slime"
+      ],
+      "[color=21,45,64] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-iron" : {
+    "name" : "molten-iron",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-iron"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-lead" : {
+    "name" : "molten-lead",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-lead"
+      ],
+      "[color=51,51,51] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sl-01" : {
+    "name" : "sl-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sl-01"
+      ],
+      "[color=102,102,102] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sl-02" : {
+    "name" : "sl-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sl-02"
+      ],
+      "[color=102,102,102] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sl-03" : {
+    "name" : "sl-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sl-03"
+      ],
+      "[color=102,102,102] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "slz-pulp-01" : {
+    "name" : "slz-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.slz-pulp-01"
+      ],
+      "[color=102,102,102] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "slz-pulp-02" : {
+    "name" : "slz-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.slz-pulp-02"
+      ],
+      "[color=102,102,102] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-nexelit" : {
+    "name" : "molten-nexelit",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-nexelit"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-pulp-01" : {
+    "name" : "nexelit-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-pulp-01"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-pulp-02" : {
+    "name" : "nexelit-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-pulp-02"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-pulp-03" : {
+    "name" : "nexelit-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-pulp-03"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-pulp-04" : {
+    "name" : "nexelit-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-pulp-04"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-refined-pulp" : {
+    "name" : "nexelit-refined-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-refined-pulp"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nexelit-slurry" : {
+    "name" : "nexelit-slurry",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nexelit-slurry"
+      ],
+      "[color=0,138,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-nickel" : {
+    "name" : "molten-nickel",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-nickel"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-overflow" : {
+    "name" : "nickel-overflow",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-overflow"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-prepared-solution" : {
+    "name" : "nickel-prepared-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-prepared-solution"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-pulp-01" : {
+    "name" : "nickel-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-pulp-01"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-pulp-02" : {
+    "name" : "nickel-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-pulp-02"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-pulp-03" : {
+    "name" : "nickel-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-pulp-03"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-pulp-04" : {
+    "name" : "nickel-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-pulp-04"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-slime" : {
+    "name" : "nickel-slime",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-slime"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nickel-tailings" : {
+    "name" : "nickel-tailings",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nickel-tailings"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "prepared-nickel-pulp" : {
+    "name" : "prepared-nickel-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.prepared-nickel-pulp"
+      ],
+      "[color=41,98,48] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "high-grade-quartz-pulp" : {
+    "name" : "high-grade-quartz-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.high-grade-quartz-pulp"
+      ],
+      "[color=164,164,164] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-glass" : {
+    "name" : "molten-glass",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-glass"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "prepared-quartz" : {
+    "name" : "prepared-quartz",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.prepared-quartz"
+      ],
+      "[color=164,164,164] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "quartz-pulp-01" : {
+    "name" : "quartz-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.quartz-pulp-01"
+      ],
+      "[color=164,164,164] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "quartz-pulp-02" : {
+    "name" : "quartz-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.quartz-pulp-02"
+      ],
+      "[color=164,164,164] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-tin" : {
+    "name" : "molten-tin",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-tin"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-bottom-pulp" : {
+    "name" : "tin-bottom-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-bottom-pulp"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-middle-pulp" : {
+    "name" : "tin-middle-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-middle-pulp"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-pulp-01" : {
+    "name" : "tin-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-pulp-01"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-pulp-02" : {
+    "name" : "tin-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-pulp-02"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-pulp-03" : {
+    "name" : "tin-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-pulp-03"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-slime" : {
+    "name" : "tin-slime",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-slime"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-slime-overflow" : {
+    "name" : "tin-slime-overflow",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-slime-overflow"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "tin-solution" : {
+    "name" : "tin-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.tin-solution"
+      ],
+      "[color=65,45,205] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-titanium" : {
+    "name" : "molten-titanium",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-titanium"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purified-ti-pulp" : {
+    "name" : "purified-ti-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purified-ti-pulp"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-overflow-waste" : {
+    "name" : "ti-overflow-waste",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-overflow-waste"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-01" : {
+    "name" : "ti-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-01"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-02" : {
+    "name" : "ti-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-02"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-03" : {
+    "name" : "ti-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-03"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-04" : {
+    "name" : "ti-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-04"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-05" : {
+    "name" : "ti-pulp-05",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-05"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-pulp-06" : {
+    "name" : "ti-pulp-06",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-pulp-06"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-solution" : {
+    "name" : "ti-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-solution"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "ti-solution-02" : {
+    "name" : "ti-solution-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.ti-solution-02"
+      ],
+      "[color=181,163,186] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-15" : {
+    "name" : "u-15",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-15"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-20" : {
+    "name" : "u-20",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-20"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-23" : {
+    "name" : "u-23",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-23"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-25" : {
+    "name" : "u-25",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-25"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-30" : {
+    "name" : "u-30",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-30"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-33" : {
+    "name" : "u-33",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-33"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-35" : {
+    "name" : "u-35",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-35"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-40" : {
+    "name" : "u-40",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-40"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-43" : {
+    "name" : "u-43",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-43"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-45" : {
+    "name" : "u-45",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-45"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-50" : {
+    "name" : "u-50",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-50"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-65" : {
+    "name" : "u-65",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-65"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-70" : {
+    "name" : "u-70",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-70"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-73" : {
+    "name" : "u-73",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-73"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-75" : {
+    "name" : "u-75",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-75"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-79" : {
+    "name" : "u-79",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-79"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-81" : {
+    "name" : "u-81",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-81"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-83" : {
+    "name" : "u-83",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-83"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-pulp-01" : {
+    "name" : "u-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-pulp-01"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-pulp-02" : {
+    "name" : "u-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-pulp-02"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-pulp-03" : {
+    "name" : "u-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-pulp-03"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-rich-pulp" : {
+    "name" : "u-rich-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-rich-pulp"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "u-waste" : {
+    "name" : "u-waste",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.u-waste"
+      ],
+      "[color=45,192,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-zinc" : {
+    "name" : "molten-zinc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-zinc"
+      ],
+      "[color=153,230,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-overflow" : {
+    "name" : "zinc-overflow",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-overflow"
+      ],
+      "[color=153,229,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-pulp-01" : {
+    "name" : "zinc-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-pulp-01"
+      ],
+      "[color=153,229,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-pulp-02" : {
+    "name" : "zinc-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-pulp-02"
+      ],
+      "[color=153,230,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-pulp-03" : {
+    "name" : "zinc-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-pulp-03"
+      ],
+      "[color=153,230,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-pulp-04" : {
+    "name" : "zinc-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-pulp-04"
+      ],
+      "[color=153,230,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "zinc-waste" : {
+    "name" : "zinc-waste",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.zinc-waste"
+      ],
+      "[color=153,230,215] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-silver" : {
+    "name" : "molten-silver",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-silver"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "gold-solution" : {
+    "name" : "gold-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.gold-solution"
+      ],
+      "[color=242,202,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "dowfroth-250" : {
+    "name" : "dowfroth-250",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.dowfroth-250"
+      ],
+      "[color=52,27,19] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-11-conc" : {
+    "name" : "sb-11-conc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-11-conc"
+      ],
+      "[color=255,134,145] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-58-conc" : {
+    "name" : "sb-58-conc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-58-conc"
+      ],
+      "[color=255,134,145] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-conc" : {
+    "name" : "sb-conc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-conc"
+      ],
+      "[color=255,134,145] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-final-conc" : {
+    "name" : "sb-final-conc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-final-conc"
+      ],
+      "[color=255,134,145] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-low-conc" : {
+    "name" : "sb-low-conc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-low-conc"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-pulp-01" : {
+    "name" : "sb-pulp-01",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-pulp-01"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-pulp-02" : {
+    "name" : "sb-pulp-02",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-pulp-02"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-pulp-03" : {
+    "name" : "sb-pulp-03",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-pulp-03"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-pulp-04" : {
+    "name" : "sb-pulp-04",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-pulp-04"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "sb-pulp-05" : {
+    "name" : "sb-pulp-05",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.sb-pulp-05"
+      ],
+      "[color=255,91,97] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "stripped-th" : {
+    "name" : "stripped-th",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.stripped-th"
+      ],
+      "[color=5,128,67] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "th-oxalate" : {
+    "name" : "th-oxalate",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.th-oxalate"
+      ],
+      "[color=5,128,67] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "th-pulp" : {
+    "name" : "th-pulp",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.th-pulp"
+      ],
+      "[color=5,128,67] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "gd-stripped-solution" : {
+    "name" : "gd-stripped-solution",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.gd-stripped-solution"
+      ],
+      "[color=122,66,17] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "molten-solder" : {
+    "name" : "molten-solder",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.molten-solder"
+      ],
+      "[color=178,178,178] ■[\/color]"
+    ],
+    "order" : "a",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "acid-solvent" : {
+    "name" : "acid-solvent",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.acid-solvent"
+      ],
+      "[color=48,236,196] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "aerofloat-15" : {
+    "name" : "aerofloat-15",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.aerofloat-15"
+      ],
+      "[color=21,41,61] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "al-tailings" : {
+    "name" : "al-tailings",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.al-tailings"
+      ],
+      "[color=210,144,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "alamac" : {
+    "name" : "alamac",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.alamac"
+      ],
+      "[color=86,161,126] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "armac-12" : {
+    "name" : "armac-12",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.armac-12"
+      ],
+      "[color=161,122,86] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "chlorine" : {
+    "name" : "chlorine",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.chlorine"
+      ],
+      "[color=117,188,34] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "cresylic-acid" : {
+    "name" : "cresylic-acid",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.cresylic-acid"
+      ],
+      "[color=121,0,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "hydrogen" : {
+    "name" : "hydrogen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hydrogen"
+      ],
+      "[color=255,255,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 20000,
+    "emissions_multiplier" : 1
+  },
+  "hydrogen-chloride" : {
+    "name" : "hydrogen-chloride",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.hydrogen-chloride"
+      ],
+      "[color=187,223,147] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "kerosene" : {
+    "name" : "kerosene",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.kerosene"
+      ],
+      "[color=213,199,34] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 1500000,
+    "emissions_multiplier" : 1
+  },
+  "mibc" : {
+    "name" : "mibc",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.mibc"
+      ],
+      "[color=79,171,188] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "nitrogen" : {
+    "name" : "nitrogen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.nitrogen"
+      ],
+      "[color=28,92,255] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "oxygen" : {
+    "name" : "oxygen",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.oxygen"
+      ],
+      "[color=178,40,45] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "petroleum-sulfonates" : {
+    "name" : "petroleum-sulfonates",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.petroleum-sulfonates"
+      ],
+      "[color=72,3,0] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "purest-nitrogen-gas" : {
+    "name" : "purest-nitrogen-gas",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.purest-nitrogen-gas"
+      ],
+      "[color=3,67,229] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 15,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "vanadium-mixture" : {
+    "name" : "vanadium-mixture",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.vanadium-mixture"
+      ],
+      "[color=45,202,49] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "xylenol" : {
+    "name" : "xylenol",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.xylenol"
+      ],
+      "[color=20,89,31] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  },
+  "z3-reagent" : {
+    "name" : "z3-reagent",
+    "localised_name" : [
+      "",
+      [
+        "fluid-name.z3-reagent"
+      ],
+      "[color=199,83,170] ■[\/color]"
+    ],
+    "order" : "c",
+    "default_temperature" : 10,
+    "max_temperature" : 100,
+    "fuel_value" : 0,
+    "emissions_multiplier" : 1
+  }
+}

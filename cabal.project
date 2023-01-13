@@ -1,0 +1,23 @@
+source-repository-package
+  type: git
+  location: https://github.com/kowainik/relude.git
+
+-- source-repository-package
+--  type: git
+  -- Normally this is a git URL, but a local path works too (but I think it must be absolute?):
+  -- location: https://github.com/PPKFS/dear-imgui.hs
+  -- tag: b09a909a12c9d300df7d65b016feb692003cfbf5
+
+packages:
+  dear-imgui.hs/dear-imgui.cabal
+  ./the-perfect-spaghetti.cabal
+  solitude/solitude.cabal
+
+package dear-imgui
+  flags: +sdl +opengl2 -opengl3 +node-editor
+
+constraints: diagnose +megaparsec-compat
+-- profiling: true
+-- profiling-detail: toplevel-functions
+-- package *
+--  profiling: True

@@ -1,0 +1,227 @@
+{
+  "boiler" : {
+    "name" : "boiler",
+    "localised_name" : [
+      "entity-name.boiler"
+    ],
+    "max_energy_usage" : 3701250,
+    "target_temperature" : 250,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "burner" : {
+        "effectivity" : 1,
+        "fuel_categories" : {
+          "chemical" : true,
+          "biomass" : true
+        },
+        "emissions" : 1.3508949679162e-07
+      }
+    },
+    "pollution" : 30
+  },
+  "heat-exchanger" : {
+    "name" : "heat-exchanger",
+    "localised_name" : [
+      "entity-name.heat-exchanger"
+    ],
+    "max_energy_usage" : 122220000,
+    "target_temperature" : 500,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "emissions" : 0,
+        "max_temperature" : 2000,
+        "default_temperature" : 15,
+        "specific_heat" : 500000000,
+        "max_transfer" : 66666666.666667,
+        "min_temperature_gradient" : 1,
+        "min_working_temperature" : 500
+      }
+    },
+    "pollution" : 0
+  },
+  "lrf-panel-mk01" : {
+    "name" : "lrf-panel-mk01",
+    "localised_name" : [
+      "entity-name.lrf-panel-mk01"
+    ],
+    "max_energy_usage" : 600000,
+    "target_temperature" : 5000,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "void" : {
+        "emissions" : 0
+      }
+    },
+    "pollution" : 0
+  },
+  "stirling-concentrator" : {
+    "name" : "stirling-concentrator",
+    "localised_name" : [
+      "entity-name.stirling-concentrator"
+    ],
+    "max_energy_usage" : 800000,
+    "target_temperature" : 5000,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "void" : {
+        "emissions" : 0
+      }
+    },
+    "pollution" : 0
+  },
+  "solar-tower-building" : {
+    "name" : "solar-tower-building",
+    "localised_name" : [
+      "entity-name.solar-tower-building"
+    ],
+    "max_energy_usage" : 3840000000,
+    "target_temperature" : 5000,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "fluid" : {
+        "emissions" : 0,
+        "effectivity" : 1,
+        "burns_fluid" : false,
+        "scale_fluid_usage" : false,
+        "fluid_usage_per_tick" : 1,
+        "maximum_temperature" : 0,
+        "fluid_box" : {
+          "index" : 1,
+          "production_type" : "input",
+          "base_area" : 0.61,
+          "base_level" : 0,
+          "height" : 1,
+          "volume" : 61,
+          "filter" : "void"
+        }
+      }
+    },
+    "pollution" : 0,
+    "input_fluid" : "molten-salt",
+    "output_fluid" : "hot-molten-salt"
+  },
+  "electric-boiler" : {
+    "name" : "electric-boiler",
+    "localised_name" : [
+      "entity-name.electric-boiler"
+    ],
+    "max_energy_usage" : 25000000,
+    "target_temperature" : 250,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 0,
+        "emissions" : 2.6666666666667e-09
+      }
+    },
+    "pollution" : 4
+  },
+  "oil-boiler-mk01" : {
+    "name" : "oil-boiler-mk01",
+    "localised_name" : [
+      "entity-name.oil-boiler-mk01"
+    ],
+    "max_energy_usage" : 29610000,
+    "target_temperature" : 250,
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "fluid" : {
+        "emissions" : 1.6886187098953e-08,
+        "effectivity" : 2,
+        "burns_fluid" : true,
+        "scale_fluid_usage" : true,
+        "fluid_usage_per_tick" : 0,
+        "maximum_temperature" : 0,
+        "fluid_box" : {
+          "index" : 1,
+          "production_type" : "input",
+          "base_area" : 1,
+          "base_level" : -1,
+          "height" : 2,
+          "volume" : 200
+        }
+      }
+    },
+    "pollution" : 30,
+    "input_fluid" : "water",
+    "output_fluid" : "steam"
+  }
+}

@@ -1,0 +1,805 @@
+{
+  "transport-belt-beltbox" : {
+    "name" : "transport-belt-beltbox",
+    "localised_name" : [
+      "entity-name.transport-belt-beltbox"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 90000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "stacking" : true,
+      "unstacking" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.19921875,
+        "x" : -0.19921875
+      },
+      "right_bottom" : {
+        "y" : 0.19921875,
+        "x" : 0.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 15000,
+        "emissions" : 5.5555555555556e-07
+      }
+    },
+    "pollution" : 3
+  },
+  "fast-transport-belt-beltbox" : {
+    "name" : "fast-transport-belt-beltbox",
+    "localised_name" : [
+      "entity-name.fast-transport-belt-beltbox"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 180000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "stacking" : true,
+      "unstacking" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.19921875,
+        "x" : -0.19921875
+      },
+      "right_bottom" : {
+        "y" : 0.19921875,
+        "x" : 0.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 15000,
+        "emissions" : 1.3888888888889e-07
+      }
+    },
+    "pollution" : 1.5
+  },
+  "express-transport-belt-beltbox" : {
+    "name" : "express-transport-belt-beltbox",
+    "localised_name" : [
+      "entity-name.express-transport-belt-beltbox"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 270000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3,
+    "crafting_categories" : {
+      "stacking" : true,
+      "unstacking" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.19921875,
+        "x" : -0.19921875
+      },
+      "right_bottom" : {
+        "y" : 0.19921875,
+        "x" : 0.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 15000,
+        "emissions" : 6.1728395061728e-08
+      }
+    },
+    "pollution" : 1
+  },
+  "stone-furnace" : {
+    "name" : "stone-furnace",
+    "localised_name" : [
+      "entity-name.stone-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 200000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "smelting" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.69921875,
+        "x" : -0.69921875
+      },
+      "right_bottom" : {
+        "y" : 0.69921875,
+        "x" : 0.69921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "burner" : {
+        "effectivity" : 1,
+        "fuel_categories" : {
+          "chemical" : true,
+          "biomass" : true
+        },
+        "emissions" : 1.6666666666667e-07
+      }
+    },
+    "pollution" : 2
+  },
+  "steel-furnace" : {
+    "name" : "steel-furnace",
+    "localised_name" : [
+      "entity-name.steel-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 4,
+    "crafting_categories" : {
+      "smelting" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.69921875,
+        "x" : -0.69921875
+      },
+      "right_bottom" : {
+        "y" : 0.69921875,
+        "x" : 0.69921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "burner" : {
+        "effectivity" : 1,
+        "fuel_categories" : {
+          "chemical" : true,
+          "biomass" : true
+        },
+        "emissions" : 3.3333333333333e-08
+      }
+    },
+    "pollution" : 4
+  },
+  "electric-furnace" : {
+    "name" : "electric-furnace",
+    "localised_name" : [
+      "entity-name.electric-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 10000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 8,
+    "crafting_categories" : {
+      "smelting" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -1.19921875,
+        "x" : -1.19921875
+      },
+      "right_bottom" : {
+        "y" : 1.19921875,
+        "x" : 1.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "emissions" : 0,
+        "max_temperature" : 1000,
+        "default_temperature" : 15,
+        "specific_heat" : 1000000,
+        "max_transfer" : 33333333.333333,
+        "min_temperature_gradient" : 1,
+        "min_working_temperature" : 500
+      }
+    },
+    "pollution" : 0
+  },
+  "co2-absorber" : {
+    "name" : "co2-absorber",
+    "localised_name" : [
+      "entity-name.co2-absorber"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 200000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "co2" : true
+    },
+    "module_inventory_size" : 4,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -3.25,
+        "x" : -3.25
+      },
+      "right_bottom" : {
+        "y" : 3.25,
+        "x" : 3.25
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 6666.6666666667,
+        "emissions" : -5e-06
+      }
+    },
+    "pollution" : -60
+  },
+  "barrel-machine-mk01" : {
+    "name" : "barrel-machine-mk01",
+    "localised_name" : [
+      "entity-name.barrel-machine-mk01"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 200000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 0.5,
+    "crafting_categories" : {
+      "py-barreling" : true,
+      "py-unbarreling" : true
+    },
+    "module_inventory_size" : 4,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -1.25,
+        "x" : -1.25
+      },
+      "right_bottom" : {
+        "y" : 1.25,
+        "x" : 1.25
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 6666.6666666667,
+        "emissions" : 8.3333333333333e-08
+      }
+    },
+    "pollution" : 1
+  },
+  "py-burner" : {
+    "name" : "py-burner",
+    "localised_name" : [
+      "entity-name.py-burner"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 180000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 5,
+    "crafting_categories" : {
+      "py-incineration" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -1.19921875,
+        "x" : -1.19921875
+      },
+      "right_bottom" : {
+        "y" : 1.19921875,
+        "x" : 1.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "burner" : {
+        "effectivity" : 1,
+        "fuel_categories" : {
+          "chemical" : true,
+          "jerry" : true,
+          "biomass" : true
+        },
+        "emissions" : 2.7777777777778e-06
+      }
+    },
+    "pollution" : 30
+  },
+  "py-gas-vent" : {
+    "name" : "py-gas-vent",
+    "localised_name" : [
+      "entity-name.py-gas-vent"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 25000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "py-venting" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -0.19921875,
+        "x" : -0.19921875
+      },
+      "right_bottom" : {
+        "y" : 0.19921875,
+        "x" : 0.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "void" : {
+        "emissions" : 0
+      }
+    },
+    "pollution" : 0
+  },
+  "py-sinkhole" : {
+    "name" : "py-sinkhole",
+    "localised_name" : [
+      "entity-name.py-sinkhole"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 1000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "py-runoff" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : false,
+      "speed" : false,
+      "productivity" : false,
+      "pollution" : false
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -1.19921875,
+        "x" : -1.19921875
+      },
+      "right_bottom" : {
+        "y" : 1.19921875,
+        "x" : 1.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "void" : {
+        "emissions" : 0
+      }
+    },
+    "pollution" : 0
+  },
+  "compost-plant-mk01" : {
+    "name" : "compost-plant-mk01",
+    "localised_name" : [
+      "entity-name.compost-plant-mk01"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 500000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 1,
+    "crafting_categories" : {
+      "compost" : true
+    },
+    "module_inventory_size" : 1,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -5.19921875,
+        "x" : -5.19921875
+      },
+      "right_bottom" : {
+        "y" : 5.19921875,
+        "x" : 5.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 16666.666666667,
+        "emissions" : 3.3333333333333e-08
+      }
+    },
+    "pollution" : 1
+  },
+  "compost-plant-mk02" : {
+    "name" : "compost-plant-mk02",
+    "localised_name" : [
+      "entity-name.compost-plant-mk02"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 2000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 2,
+    "crafting_categories" : {
+      "compost" : true
+    },
+    "module_inventory_size" : 2,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -5.19921875,
+        "x" : -5.19921875
+      },
+      "right_bottom" : {
+        "y" : 5.19921875,
+        "x" : 5.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 66666.666666667,
+        "emissions" : 8.3333333333333e-09
+      }
+    },
+    "pollution" : 1
+  },
+  "compost-plant-mk03" : {
+    "name" : "compost-plant-mk03",
+    "localised_name" : [
+      "entity-name.compost-plant-mk03"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 3000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 3,
+    "crafting_categories" : {
+      "compost" : true
+    },
+    "module_inventory_size" : 3,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -5.19921875,
+        "x" : -5.19921875
+      },
+      "right_bottom" : {
+        "y" : 5.19921875,
+        "x" : 5.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 100000,
+        "emissions" : 5.5555555555556e-09
+      }
+    },
+    "pollution" : 1
+  },
+  "compost-plant-mk04" : {
+    "name" : "compost-plant-mk04",
+    "localised_name" : [
+      "entity-name.compost-plant-mk04"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 4000000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 4,
+    "crafting_categories" : {
+      "compost" : true
+    },
+    "module_inventory_size" : 4,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -5.19921875,
+        "x" : -5.19921875
+      },
+      "right_bottom" : {
+        "y" : 5.19921875,
+        "x" : 5.19921875
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "electric" : {
+        "drain" : 133333.33333333,
+        "emissions" : 4.1666666666667e-09
+      }
+    },
+    "pollution" : 1
+  },
+  "magic-furnace" : {
+    "name" : "magic-furnace",
+    "localised_name" : [
+      "entity-name.magic-furnace"
+    ],
+    "type" : "furnace",
+    "energy_usage" : 180000,
+    "ingredient_count" : 1,
+    "crafting_speed" : 10,
+    "crafting_categories" : {
+      "blackhole-energy" : true
+    },
+    "module_inventory_size" : 0,
+    "allowed_effects" : {
+      "consumption" : true,
+      "speed" : true,
+      "productivity" : true,
+      "pollution" : true
+    },
+    "collision_box" : {
+      "left_top" : {
+        "y" : -4.25,
+        "x" : -4.25
+      },
+      "right_bottom" : {
+        "y" : 4.25,
+        "x" : 4.25
+      }
+    },
+    "friendly_map_color" : {
+      "r" : 0,
+      "g" : 96,
+      "b" : 145,
+      "a" : 255
+    },
+    "enemy_map_color" : {
+      "r" : 255,
+      "g" : 25,
+      "b" : 25,
+      "a" : 255
+    },
+    "energy_source" : {
+      "void" : {
+        "emissions" : 0
+      }
+    },
+    "pollution" : 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "atp-equipment-grid" : {
+    "name" : "atp-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.atp-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "atp-eqcat"
+    ],
+    "width" : 2,
+    "height" : 4
+  },
+  "companion-equipment-grid" : {
+    "name" : "companion-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.companion-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "companion"
+    ],
+    "width" : 10,
+    "height" : 2
+  },
+  "farl-equipment-grid" : {
+    "name" : "farl-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.farl-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "farl-equipment"
+    ],
+    "width" : 2,
+    "height" : 2
+  },
+  "large-equipment-grid" : {
+    "name" : "large-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.large-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 10,
+    "height" : 10
+  },
+  "medium-equipment-grid" : {
+    "name" : "medium-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.medium-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 7,
+    "height" : 7
+  },
+  "mk02-train-equipment-grid" : {
+    "name" : "mk02-train-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.mk02-train-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "atp-eqcat",
+      "farl-equipment"
+    ],
+    "width" : 4,
+    "height" : 4
+  },
+  "mk03-train-equipment-grid" : {
+    "name" : "mk03-train-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.mk03-train-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "atp-eqcat",
+      "farl-equipment"
+    ],
+    "width" : 8,
+    "height" : 6
+  },
+  "mk04-train-equipment-grid" : {
+    "name" : "mk04-train-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.mk04-train-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "atp-eqcat",
+      "farl-equipment"
+    ],
+    "width" : 10,
+    "height" : 8
+  },
+  "small-equipment-grid" : {
+    "name" : "small-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.small-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor",
+      "armor-jetpack"
+    ],
+    "width" : 5,
+    "height" : 5
+  },
+  "spidertron-equipment-grid" : {
+    "name" : "spidertron-equipment-grid",
+    "localised_name" : [
+      "equipment-grid-name.spidertron-equipment-grid"
+    ],
+    "equipment_categories" : [
+      "armor"
+    ],
+    "width" : 10,
+    "height" : 6
+  }
+}
