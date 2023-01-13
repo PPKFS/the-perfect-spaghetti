@@ -2,3 +2,7 @@
 	path = solitude
 	url = https://github.com/ppkfs/solitude
 	branch = mtl
+[submodule "dear-imgui.hs"]
+	path = dear-imgui.hs
+	url = https://github.com/ppkfs/dear-imgui.hs
+  branch = imgui-node
